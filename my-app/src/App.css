@@ -1,0 +1,101 @@
+/* Background gradient */
+body {
+  margin: 0;
+  padding: 0;
+  /* for multiclolor backgroung */
+  background: linear-gradient(135deg, #7fc1f7, #c492aa, #c9bbea, #fbc2eb);
+  background-size: 400% 400%;
+  animation: gradientBG 15s ease infinite;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@keyframes gradientBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.app {
+  text-align: center;
+  padding: 40px;
+  color: #fff;
+}
+
+.title {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  background: linear-gradient(to right, #2594bc, #090553);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.counter-value {
+  font-size: 4rem;
+  font-weight: bold;
+  margin: 20px 0;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+/* Change color at bounds */
+.counter-value.max {
+  color: #ff1744;
+  transform: scale(1.2);
+}
+
+.counter-value.min {
+  color: #2979ff;
+  transform: scale(1.2);
+}
+
+.buttons {
+  margin: 20px 0;
+}
+
+button {
+  margin: 10px;
+  padding: 12px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  color: white;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  transition: transform 0.2s ease, background 0.3s ease;
+}
+
+button:hover:not(:disabled) {
+  transform: scale(1.1);
+  background: linear-gradient(135deg, #ff6a00, #ee0979);
+}
+
+button:disabled {
+  background: gray;
+  cursor: not-allowed;
+}
+
+.controls {
+  margin-top: 30px;
+  font-size: 1.1rem;
+}
+
+.controls input[type="number"] {
+  margin-left: 10px;
+  padding: 5px;
+  width: 60px;
+  border-radius: 8px;
+  border: 2px solid #fff;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.checkbox {
+  display: block;
+  margin-top: 15px;
+}
