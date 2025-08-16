@@ -7,6 +7,7 @@ GitHub Repository Link : https://github.com/PratibhaPanda001/CounterAppByReact.g
 
 ## 🔗 Live Demo Link using Netlify
 link : https://mycounterwithreact.netlify.app/
+
 incase this link fails, i'd request please go through the mp4 vdo file
 
 ##   Tech Stack
@@ -44,7 +45,7 @@ To make interactions feel smooth and engaging, I applied CSS transitions and con
 
 ![Counter App Screenshot](counter.png)
 
-##  Demo Video Link
+## 🔗 Demo Video Link
 https://github.com/PratibhaPanda001/CounterAppByReact/blob/main/reactappvdo.mp4
 
 ##  Feature List
