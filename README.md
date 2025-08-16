@@ -17,7 +17,7 @@ incase this link fails, i'd request please go through the mp4 vdo file
 - **localStorage** API for state persistence
 
 
-## ⚙ How to Run Locally
+## How to Run Locally
 
 **Prerequisites:**
 - [Node.js](https://nodejs.org/) (v14+) and npm installed.
