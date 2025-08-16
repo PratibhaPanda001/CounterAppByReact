@@ -44,6 +44,9 @@ To make interactions feel smooth and engaging, I applied CSS transitions and con
 
 ![Counter App Screenshot](counter.png)
 
+##  Demo Video Link
+https://github.com/PratibhaPanda001/CounterAppByReact/blob/main/reactappvdo.mp4
+
 ##  Feature List
 
 ### Core Features
