@@ -3,7 +3,7 @@
 A React-based counter app that lets users view, increment, decrement, or reset a value within set bounds. Inputs include a custom step size and an optional negative toggle, with buttons disabling at limits. 
 
 ## 🔗 Links
-GitHub Repository Link : 
+GitHub Repository Link : https://github.com/PratibhaPanda001/CounterAppByReact.git
 
 ## 🔗 Live Demo Link using Netlify
 
