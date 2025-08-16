@@ -6,6 +6,8 @@ A React-based counter app that lets users view, increment, decrement, or reset a
 GitHub Repository Link : https://github.com/PratibhaPanda001/CounterAppByReact.git
 
 ## 🔗 Live Demo Link using Netlify
+link : https://mycounterwithreact.netlify.app/
+incase this link fails, i'd request please go through the mp4 vdo file
 
 ##   Tech Stack
 
